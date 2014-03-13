@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4C729479-C55A-44A8-99D9-C375784240B3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>djysimvs2010</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\..\src\user\include;$(ProjectDir)\..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include;$(ProjectDir);$(ProjectDir)\..\..\..\..\djysrc\djyos\djyfs\include;$(ProjectDir)\..\..\..\..\djysrc\djyos\gui\include;$(ProjectDir)\..\..\..\..\djysrc\djyos\include;$(ProjectDir)\..\..\..\..\djysrc\bsp\board_peripheral\windows\include;$(ProjectDir)\..\..\..\..\djysrc\bsp\arch\windows\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>comctl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\arch.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\cpu.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\exception.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\int_hard.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\stdint.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_cmd.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_int_line.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_keyboard.h" />
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_lcd_touch_mouse.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\ddr.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\ecc256.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\fdt.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\file.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\flashfile.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\mdr.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\ascii.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\encoding.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\gb2312.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\loc_string.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\nls.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\utf8.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x16.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x8.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\font.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\gb2312_16.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\Ascii.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\config-gui.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_api.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_clip.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_display.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_draw.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_inc.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_syscall.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_usercall.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_win.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\clock.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\critical.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\djyos.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\driver.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\endian.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\input.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\int.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\kernel.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\key.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\line.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\lock.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\memb.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\memory.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\mems.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\os_inc.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\pipe.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\ring.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\rsc.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\shell.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\shell_fs.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\sys_init.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\version.h" />
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\wdt.h" />
+    <ClInclude Include="..\src\user\config\font_songti_16x16.h" />
+    <ClInclude Include="..\src\user\include\config-prj.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\buffer\line.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\buffer\ring.c" />
+    <ClCompile Include="..\..\..\..\djysrc\bsp\arch\windows\core\cpu.c" />
+    <ClCompile Include="..\..\..\..\djysrc\bsp\arch\windows\core\exception.c" />
+    <ClCompile Include="..\..\..\..\djysrc\bsp\arch\windows\core\int_hard.c" />
+    <ClCompile Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\command.c" />
+    <ClCompile Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c" />
+    <ClCompile Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\clock\clock.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\core\djyos.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\core\endian.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\core\sys_init.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\file.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\ddr.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\ecc256.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\fdt.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\flashfile.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\mdr.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\driver\driver.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\display\gk_display.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\ascii.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\encoding.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\gb2312.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\loc_string.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\nls.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\utf8.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x16.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x8.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\font.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\gb2312_16.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\textshow.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\gk_draw\gk_draw.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\lib\gk_api.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\window\gk_clip.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\window\gk_win.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\int\int.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\lock\lock.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\memory\memb.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\memory\mems.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\pipe\pipe.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\rsc\rsc.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\shell\shell.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\shell\shell_fs.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\char_term\char_term.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\keypad\keyboard.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\stdin_dev.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\touch\Touch.c" />
+    <ClCompile Include="..\..\..\..\djysrc\djyos\wdt\wdt.c" />
+    <ClCompile Include="..\src\user\config\module_init.c" />
+    <ClCompile Include="..\src\user\critical\critical.c" />
+    <ClCompile Include="..\src\user\src\main.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

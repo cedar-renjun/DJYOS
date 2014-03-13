@@ -1,0 +1,31 @@
+
+T55E8 001:995 SEGGER J-Link V4.54a Log File (0001ms, 1995ms total)
+T55E8 001:995 DLL Compiled: Sep 17 2012 15:58:45 (0001ms, 1995ms total)
+T55E8 001:995 Logging started @ 2012-12-08 12:15 (0001ms, 1995ms total)
+T55E8 001:996 JLINK_SetWarnOutHandler(...) (0000ms, 1995ms total)
+T55E8 001:996 JLINK_OpenEx(...)
+Firmware: J-Link ARM V8 compiled May 27 2009 17:31:22
+Hardware: V8.00
+S/N: 20090626
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL  returns O.K. (1544ms, 3539ms total)
+T55E8 003:540 JLINK_SetErrorOutHandler(...) (0000ms, 3539ms total)
+T55E8 003:544 JLINK_ExecCommand("ProjectFile = "E:\djysdk\djyos_workspace\examples\qh_1\JLinkSettings.ini"", ...)  returns 0x00 (0024ms, 3563ms total)
+T55E8 003:602 JLINK_ExecCommand("Device = STM32F103ZE", ...)
+                JLINK_ExecCommand("map ram 0x20000000 - 0x2000FFFF", ...)  returns 0x00 (0000ms, 0000ms total)
+                JLINK_AddMirrorAreaEx(Addr = 0x00000000, Size = 0x00000000) (0000ms, 0000ms total)
+              Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).  returns 0x00 (0018ms, 3581ms total)
+T55E8 003:620 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 3581ms total)
+T55E8 003:620 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 3581ms total)
+T55E8 003:620 JLINK_SetSpeed(3000) (0001ms, 3582ms total)
+T55E8 003:621 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 3582ms total)
+T55E8 003:621 JLINK_GetDLLVersion()  returns 45401 (0000ms, 3582ms total)
+T55E8 003:621 JLINK_GetFirmwareString(...) (0000ms, 3582ms total)
+T55E8 003:626 JLINK_GetDLLVersion()  returns 45401 (0000ms, 3582ms total)
+T55E8 003:626 JLINK_GetCompileDateTime() (0000ms, 3582ms total)
+T55E8 003:630 JLINK_GetFirmwareString(...) (0000ms, 3582ms total)
+T55E8 003:632 JLINK_GetHardwareVersion()  returns 0x13880 (0000ms, 3582ms total)
+T55E8 003:640 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = 9, IRPrint = 0x0011 >0x30 JTAG> >0x210 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x2F8 JTAG>TotalIRLen = 9, IRPrint = 0x0011 >0x30 JTAG> >0x210 JTAG> >0x80 JTAG> >0x40 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG>
+ >0x38 JTAG> >0x80 JTAG> >0x40 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x80 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x80 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG>
+Found Cortex-M3 r1p1, Little endian. >0x50 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x30 JTAG> >0x50 JTAG> >0x40 JTAG> >0x80 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG>TPIU fitted. >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG>ETM fitted. >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG>
+ >0x40 JTAG>FPUnit: 6 code (BP) slots and 2 literal slots >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x40 JTAG> >0x50 JTAG> >0x40 JTAG> >0x40 JTAG> >0x40 JTAG> >0x30 JTAG> >0x30 JTAG> >0x50 JTAG> >0x40 JTAG>
+                JLINK_Close() >0x58 JTAG> (0428ms, 0428ms total)

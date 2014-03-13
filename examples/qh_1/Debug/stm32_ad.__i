@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Keil\ARM\CMSIS\Include" -I "C:\Keil\ARM\INC\ST\STM32F10x" -o "..\Debug\stm32_ad.o" --omf_browse "..\Debug\stm32_ad.crf" --depend "..\Debug\stm32_ad.d" "..\..\..\djyos\bsp\cpu_peripheral\stm32\src\stm32_ad.c"

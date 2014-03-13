@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\djysdk\djyos_workspace\examples\qh_1\keil仅用于调试.uvproj
+Project File Date:  12/08/2012
+
+<h2>Output:</h2>
+Load "E:\\djysdk\\djyos_workspace\\examples\\qh_1\\Release\\qh_1.elf" 
+Set JLink Project File to "E:\djysdk\djyos_workspace\examples\qh_1\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.54a, compiled Sep 17 2012 15:58:45
+Firmware: J-Link ARM V8 compiled May 27 2009 17:31:22
+Hardware: V8.00
+S/N : 20090626 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots

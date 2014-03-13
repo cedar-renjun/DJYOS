@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdtprojectproperties>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.IncludePaths">
+<language name="Assembly Source File">
+<includepath>${ProjDirPath}/src/bsp/arch/include</includepath>
+
+</language>
+<language name="C Source File">
+<includepath workspace_path="true">/${ProjName}/src/djyos/include</includepath>
+<includepath workspace_path="true">/${ProjName}/src/djyos/gui/include</includepath>
+<includepath workspace_path="true">/${ProjName}/src/djyos/djyfs/include</includepath>
+<includepath>${ProjDirPath}/src/bsp/arch/include</includepath>
+<includepath>${ProjDirPath}/src/user/include</includepath>
+<includepath>${ProjDirPath}/src/bsp/board_peripheral/include</includepath>
+<includepath>${ProjDirPath}/src/bsp/cpu_peripheral/include</includepath>
+<includepath>${ProjDirPath}/src/bsp/cpu_peripheral/include_api</includepath>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+<section name="org.eclipse.cdt.internal.ui.wizards.settingswizards.Macros">
+<language name="Assembly Source File">
+<macro>
+<name>debug</name><value/>
+</macro>
+
+</language>
+<language name="C Source File">
+<macro>
+<name>debug</name><value/>
+</macro>
+
+</language>
+<language name="Object File">
+
+</language>
+</section>
+</cdtprojectproperties>

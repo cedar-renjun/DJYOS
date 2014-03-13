@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\bsp">
+      <UniqueIdentifier>{28f2587f-90f9-4c8a-bbf3-9e396a842a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos">
+      <UniqueIdentifier>{cc456649-3c45-4871-9e40-874fbca01554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\driver">
+      <UniqueIdentifier>{196dc1c4-383a-4841-8026-eb0185dc4fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\core">
+      <UniqueIdentifier>{c60c5e10-85ba-4890-8250-817b653b252b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui">
+      <UniqueIdentifier>{a6201e34-61e0-4120-96b4-efc89f25f7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\display">
+      <UniqueIdentifier>{4778d1ee-cd8e-4fdf-95e0-de2d5ea311b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\encoding">
+      <UniqueIdentifier>{5d8a0247-2a7d-427f-930a-07af4e0388d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\font">
+      <UniqueIdentifier>{58700fdb-f216-47e5-bf4a-3ec08a4612b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\gk_draw">
+      <UniqueIdentifier>{57697c27-321e-4504-9db6-ed7d060c33dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\include">
+      <UniqueIdentifier>{8ac21d3c-eed8-4764-9d62-ca066cfdb037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\lib">
+      <UniqueIdentifier>{ebd69f82-0b55-49c2-aa04-5a73d2155f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\gui\window">
+      <UniqueIdentifier>{95387878-327d-4c77-a755-1ca7cb419ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\include">
+      <UniqueIdentifier>{9f5cc10f-eb48-4c57-ad88-87f4c903dd96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\memory">
+      <UniqueIdentifier>{8868a6ce-21bc-4c17-bc84-4f463ce0821a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\rsc">
+      <UniqueIdentifier>{213faf9f-f02f-45b5-80c1-59d43a353e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\lock">
+      <UniqueIdentifier>{d80f6a10-59bd-49d4-bd7e-c1c9b86343b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\buffer">
+      <UniqueIdentifier>{52e4e0d5-3182-4d0e-93cd-b5eca4d987f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\pipe">
+      <UniqueIdentifier>{b9680cdc-54eb-4607-91c7-1fe1b3aee266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\int">
+      <UniqueIdentifier>{423788cc-b75f-45e1-97e6-b3ec9f283b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\djyfs">
+      <UniqueIdentifier>{8c988735-a4c0-48ee-91d6-6c0444991a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\djyfs\flashfile">
+      <UniqueIdentifier>{535ef208-172f-4b8c-be92-1e6ed42e5324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\djyfs\include">
+      <UniqueIdentifier>{8d5af160-b81a-438d-943f-264c8d62886e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\shell">
+      <UniqueIdentifier>{14b697d8-0fd4-44c7-86a9-c3e8b73ac7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\clock">
+      <UniqueIdentifier>{dbb99a48-3738-4d66-90e3-5740adbfbf80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\stdin">
+      <UniqueIdentifier>{1115a9a6-b0fe-4a62-940f-7de457b5057c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\user">
+      <UniqueIdentifier>{0556b462-783c-416a-a7cc-386d757312a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\stdin\char_term">
+      <UniqueIdentifier>{36b0cc10-f219-47f1-b82b-ca7266999db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\stdin\keypad">
+      <UniqueIdentifier>{20873617-73e9-4cc4-b731-2eea30ed989b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\stdin\touch">
+      <UniqueIdentifier>{8ed0c398-1b6a-4b06-9e94-8a21934c5cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\djyos\wdt">
+      <UniqueIdentifier>{29262f75-5c0f-4f2e-9afd-ae5e9a102250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\arch">
+      <UniqueIdentifier>{63dd1f99-c93d-4511-b6ff-4bc57faa98b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\arch\windows">
+      <UniqueIdentifier>{f4288585-7df1-40b8-9045-c16ddcc039a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\arch\windows\core">
+      <UniqueIdentifier>{af56a45d-58fc-43d9-90f2-eea88e85c0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\arch\windows\include">
+      <UniqueIdentifier>{d37e6c45-b6bb-490c-ac44-45032d0a6352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\cpu_peripheral">
+      <UniqueIdentifier>{6e5e9146-1614-4d7e-a00a-c94058eb223a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\cpu_peripheral\include">
+      <UniqueIdentifier>{759f0f47-178b-4248-8fa4-a3fd3eafb3dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bsp\cpu_peripheral\src">
+      <UniqueIdentifier>{acb07c3d-05da-4a08-b30e-9f2a09195252}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\ddr.h">
+      <Filter>源文件\djyos\djyfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\ecc256.h">
+      <Filter>源文件\djyos\djyfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\fdt.h">
+      <Filter>源文件\djyos\djyfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\file.h">
+      <Filter>源文件\djyos\djyfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\flashfile.h">
+      <Filter>源文件\djyos\djyfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\djyfs\include\mdr.h">
+      <Filter>源文件\djyos\djyfs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\ascii.h">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\encoding.h">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\gb2312.h">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\loc_string.h">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\nls.h">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\encoding\utf8.h">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x8.h">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x16.h">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\font.h">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\font\gb2312_16.h">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\Ascii.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\config-gui.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_api.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_clip.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_display.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_draw.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_inc.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_syscall.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_usercall.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\gui\include\gk_win.h">
+      <Filter>源文件\djyos\gui\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\os_inc.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\clock.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\critical.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\djyos.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\driver.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\endian.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\input.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\int.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\kernel.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\key.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\line.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\lock.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\memb.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\memory.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\mems.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\pipe.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\ring.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\rsc.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\shell.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\shell_fs.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\sys_init.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\version.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\djyos\include\wdt.h">
+      <Filter>源文件\djyos\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\user\include\config-prj.h">
+      <Filter>源文件\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\user\config\font_songti_16x16.h">
+      <Filter>源文件\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\arch.h">
+      <Filter>源文件\bsp\arch\windows\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\cpu.h">
+      <Filter>源文件\bsp\arch\windows\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\exception.h">
+      <Filter>源文件\bsp\arch\windows\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\int_hard.h">
+      <Filter>源文件\bsp\arch\windows\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\arch\windows\include\stdint.h">
+      <Filter>源文件\bsp\arch\windows\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri.h">
+      <Filter>源文件\bsp\cpu_peripheral\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_cmd.h">
+      <Filter>源文件\bsp\cpu_peripheral\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_int_line.h">
+      <Filter>源文件\bsp\cpu_peripheral\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_keyboard.h">
+      <Filter>源文件\bsp\cpu_peripheral\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include\cpu_peri_lcd_touch_mouse.h">
+      <Filter>源文件\bsp\cpu_peripheral\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\clock\clock.c">
+      <Filter>源文件\djyos\clock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\core\djyos.c">
+      <Filter>源文件\djyos\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\core\endian.c">
+      <Filter>源文件\djyos\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\core\sys_init.c">
+      <Filter>源文件\djyos\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\ddr.c">
+      <Filter>源文件\djyos\djyfs\flashfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\ecc256.c">
+      <Filter>源文件\djyos\djyfs\flashfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\fdt.c">
+      <Filter>源文件\djyos\djyfs\flashfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\flashfile.c">
+      <Filter>源文件\djyos\djyfs\flashfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\flashfile\mdr.c">
+      <Filter>源文件\djyos\djyfs\flashfile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\driver\driver.c">
+      <Filter>源文件\djyos\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\display\gk_display.c">
+      <Filter>源文件\djyos\gui\display</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\ascii.c">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\encoding.c">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\gb2312.c">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\loc_string.c">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\nls.c">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\encoding\utf8.c">
+      <Filter>源文件\djyos\gui\encoding</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x8.c">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\ascii8x16.c">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\font.c">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\gb2312_16.c">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\font\textshow.c">
+      <Filter>源文件\djyos\gui\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\gk_draw\gk_draw.c">
+      <Filter>源文件\djyos\gui\gk_draw</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\lib\gk_api.c">
+      <Filter>源文件\djyos\gui\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\window\gk_clip.c">
+      <Filter>源文件\djyos\gui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\gui\window\gk_win.c">
+      <Filter>源文件\djyos\gui\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\int\int.c">
+      <Filter>源文件\djyos\int</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\lock\lock.c">
+      <Filter>源文件\djyos\lock</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\memory\memb.c">
+      <Filter>源文件\djyos\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\memory\mems.c">
+      <Filter>源文件\djyos\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\pipe\pipe.c">
+      <Filter>源文件\djyos\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\rsc\rsc.c">
+      <Filter>源文件\djyos\rsc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\shell\shell.c">
+      <Filter>源文件\djyos\shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\user\critical\critical.c">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\user\config\module_init.c">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\stdin_dev.c">
+      <Filter>源文件\djyos\stdin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\shell\shell_fs.c">
+      <Filter>源文件\djyos\shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\char_term\char_term.c">
+      <Filter>源文件\djyos\stdin\char_term</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\touch\Touch.c">
+      <Filter>源文件\djyos\stdin\touch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\djyfs\file.c">
+      <Filter>源文件\djyos\djyfs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\wdt\wdt.c">
+      <Filter>源文件\djyos\wdt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\user\src\main.c">
+      <Filter>源文件\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\bsp\arch\windows\core\cpu.c">
+      <Filter>源文件\bsp\arch\windows\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\bsp\arch\windows\core\exception.c">
+      <Filter>源文件\bsp\arch\windows\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\bsp\arch\windows\core\int_hard.c">
+      <Filter>源文件\bsp\arch\windows\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\command.c">
+      <Filter>源文件\bsp\cpu_peripheral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c">
+      <Filter>源文件\bsp\cpu_peripheral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\stdin\keypad\keyboard.c">
+      <Filter>源文件\djyos\stdin\keypad</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c">
+      <Filter>源文件\bsp\cpu_peripheral\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\buffer\line.c">
+      <Filter>源文件\djyos\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\djysrc\djyos\buffer\ring.c">
+      <Filter>源文件\djyos\buffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

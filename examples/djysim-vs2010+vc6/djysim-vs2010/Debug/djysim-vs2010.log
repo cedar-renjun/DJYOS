@@ -1,0 +1,150 @@
+﻿生成启动时间为 2012/11/27 22:31:21。
+     1>项目“E:\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\djysim-vs2010\djysim-vs2010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\djysim-vs2010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\..\djysrc\djyos\buffer\line.c ..\..\..\..\djysrc\djyos\buffer\ring.c ..\..\..\..\djysrc\bsp\arch\windows\core\cpu.c ..\..\..\..\djysrc\bsp\arch\windows\core\exception.c ..\..\..\..\djysrc\bsp\arch\windows\core\int_hard.c ..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\command.c ..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c ..\..\..\..\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c ..\..\..\..\djysrc\djyos\clock\clock.c ..\..\..\..\djysrc\djyos\core\djyos.c ..\..\..\..\djysrc\djyos\core\endian.c ..\..\..\..\djysrc\djyos\core\sys_init.c ..\..\..\..\djysrc\djyos\djyfs\file.c ..\..\..\..\djysrc\djyos\djyfs\flashfile\ddr.c ..\..\..\..\djysrc\djyos\djyfs\flashfile\ecc256.c ..\..\..\..\djysrc\djyos\djyfs\flashfile\fdt.c ..\..\..\..\djysrc\djyos\djyfs\flashfile\flashfile.c ..\..\..\..\djysrc\djyos\djyfs\flashfile\mdr.c ..\..\..\..\djysrc\djyos\driver\driver.c ..\..\..\..\djysrc\djyos\gui\display\gk_display.c ..\..\..\..\djysrc\djyos\gui\encoding\ascii.c ..\..\..\..\djysrc\djyos\gui\encoding\encoding.c ..\..\..\..\djysrc\djyos\gui\encoding\gb2312.c ..\..\..\..\djysrc\djyos\gui\encoding\loc_string.c ..\..\..\..\djysrc\djyos\gui\encoding\nls.c ..\..\..\..\djysrc\djyos\gui\encoding\utf8.c ..\..\..\..\djysrc\djyos\gui\font\ascii8x16.c ..\..\..\..\djysrc\djyos\gui\font\ascii8x8.c ..\..\..\..\djysrc\djyos\gui\font\font.c ..\..\..\..\djysrc\djyos\gui\font\gb2312_16.c ..\..\..\..\djysrc\djyos\gui\font\textshow.c ..\..\..\..\djysrc\djyos\gui\gk_draw\gk_draw.c ..\..\..\..\djysrc\djyos\gui\lib\gk_api.c ..\..\..\..\djysrc\djyos\gui\window\gk_clip.c ..\..\..\..\djysrc\djyos\gui\window\gk_win.c ..\..\..\..\djysrc\djyos\int\int.c ..\..\..\..\djysrc\djyos\lock\lock.c ..\..\..\..\djysrc\djyos\memory\memb.c ..\..\..\..\djysrc\djyos\memory\mems.c ..\..\..\..\djysrc\djyos\pipe\pipe.c ..\..\..\..\djysrc\djyos\rsc\rsc.c ..\..\..\..\djysrc\djyos\shell\shell.c ..\..\..\..\djysrc\djyos\shell\shell_fs.c ..\..\..\..\djysrc\djyos\stdin\char_term\char_term.c ..\..\..\..\djysrc\djyos\stdin\keypad\keyboard.c ..\..\..\..\djysrc\djyos\stdin\stdin_dev.c ..\..\..\..\djysrc\djyos\stdin\touch\Touch.c ..\..\..\..\djysrc\djyos\wdt\wdt.c ..\src\user\config\module_init.c ..\src\user\critical\critical.c ..\src\user\src\main.c
+         main.c
+         critical.c
+         module_init.c
+         wdt.c
+         Touch.c
+         stdin_dev.c
+         keyboard.c
+         char_term.c
+         shell_fs.c
+         shell.c
+         rsc.c
+         pipe.c
+         mems.c
+         memb.c
+         lock.c
+         int.c
+         gk_win.c
+         gk_clip.c
+         gk_api.c
+         gk_draw.c
+         正在生成代码...
+         正在编译...
+         textshow.c
+         gb2312_16.c
+         font.c
+         ascii8x8.c
+         ascii8x16.c
+         utf8.c
+         nls.c
+         loc_string.c
+         gb2312.c
+         encoding.c
+         ascii.c
+         gk_display.c
+         driver.c
+         mdr.c
+         flashfile.c
+         fdt.c
+         ecc256.c
+         ddr.c
+         file.c
+         sys_init.c
+         正在生成代码...
+         正在编译...
+         endian.c
+         djyos.c
+         clock.c
+         cpu_peri_lcd_touch_mouse.c
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c(103): warning C4047: “函数”:“WNDPROC *”与“LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM)”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c(103): warning C4024: “RegisterWinClass”: 形参和实参 2 的类型不同
+         cpu_peri_keyboard.c
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(44): warning C4047: “函数”:“WNDPROC *”与“LRESULT (__stdcall *)(HWND,UINT,WPARAM,LPARAM)”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(44): warning C4024: “RegisterWinClass”: 形参和实参 2 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(75): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(75): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(80): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(80): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(85): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(85): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(90): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(90): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(95): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(95): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(100): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(100): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(105): warning C4047: “函数”:“HINSTANCE”与“LONG”的间接级别不同
+     1>e:\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(105): warning C4024: “CreateWindowExW”: 形参和实参 11 的类型不同
+         command.c
+         int_hard.c
+         exception.c
+         cpu.c
+     1>e:\djysdk\djysrc\bsp\arch\windows\core\cpu.c(71): warning C4013: “printf”未定义；假设外部返回 int
+         ring.c
+         line.c
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\djysim-vs2010.exe.embed.manifest.res" Debug\djysim-vs2010_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\Debug\djysim-vs2010.exe" /INCREMENTAL /NOLOGO comctl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\djysim-vs2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\Debug\djysim-vs2010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\Debug\djysim-vs2010.lib" /MACHINE:X86 "Debug\djysim-vs2010.exe.embed.manifest.res"
+         Debug\line.obj
+         Debug\ring.obj
+         Debug\cpu.obj
+         Debug\exception.obj
+         Debug\int_hard.obj
+         Debug\command.obj
+         Debug\cpu_peri_keyboard.obj
+         Debug\cpu_peri_lcd_touch_mouse.obj
+         Debug\clock.obj
+         Debug\djyos.obj
+         Debug\endian.obj
+         Debug\sys_init.obj
+         Debug\file.obj
+         Debug\ddr.obj
+         Debug\ecc256.obj
+         Debug\fdt.obj
+         Debug\flashfile.obj
+         Debug\mdr.obj
+         Debug\driver.obj
+         Debug\gk_display.obj
+         Debug\ascii.obj
+         Debug\encoding.obj
+         Debug\gb2312.obj
+         Debug\loc_string.obj
+         Debug\nls.obj
+         Debug\utf8.obj
+         Debug\ascii8x16.obj
+         Debug\ascii8x8.obj
+         Debug\font.obj
+         Debug\gb2312_16.obj
+         Debug\textshow.obj
+         Debug\gk_draw.obj
+         Debug\gk_api.obj
+         Debug\gk_clip.obj
+         Debug\gk_win.obj
+         Debug\int.obj
+         Debug\lock.obj
+         Debug\memb.obj
+         Debug\mems.obj
+         Debug\pipe.obj
+         Debug\rsc.obj
+         Debug\shell.obj
+         Debug\shell_fs.obj
+         Debug\char_term.obj
+         Debug\keyboard.obj
+         Debug\stdin_dev.obj
+         Debug\Touch.obj
+         Debug\wdt.obj
+         Debug\module_init.obj
+         Debug\critical.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\djysim-vs2010.exe.embed.manifest" /manifest "Debug\djysim-vs2010.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         djysim-vs2010.vcxproj -> E:\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\Debug\djysim-vs2010.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\djysim-vs2010.unsuccessfulbuild”。
+         正在对“Debug\djysim-vs2010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\djysim-vs2010\djysim-vs2010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.51

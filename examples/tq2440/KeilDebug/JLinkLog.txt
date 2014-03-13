@@ -1,0 +1,27 @@
+
+T0628 000:369 SEGGER J-Link V4.24b Log File (0001ms, 0367ms total)
+T0628 000:369 DLL Compiled: Feb 22 2011 20:47:17 (0001ms, 0367ms total)
+T0628 000:369 Logging started @ 2012-02-14 20:10 (0001ms, 0367ms total)
+T0628 000:370 JLINK_SetWarnOutHandler(...) (0000ms, 0368ms total)
+T0628 000:370 JLINK_OpenEx(...)
+Firmware: J-Link ARM V7 compiled Feb 15 2011 11:03:33
+Hardware: V7.00
+S/N: 11111117
+Feature(s): RDI, FlashBP, FlashDL, JFlash, GDBFull  returns O.K. (0164ms, 0368ms total)
+T0628 000:534 JLINK_SetErrorOutHandler(...) (0000ms, 0532ms total)
+T0628 000:535 JLINK_ExecCommand("ProjectFile = "F:\Projects\Eclipse\djyosPrj\Examples\tq2440\KeilDebug\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0532ms total)
+T0628 000:536 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x00 (0000ms, 0532ms total)
+T0628 000:538 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0532ms total)
+T0628 000:539 JLINK_SetSpeed(2000) (0001ms, 0532ms total)
+T0628 000:540 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0533ms total)
+T0628 000:540 JLINK_GetDLLVersion()  returns 42402 (0000ms, 0533ms total)
+T0628 000:540 JLINK_GetFirmwareString(...) (0000ms, 0533ms total)
+T0628 000:540 JLINK_GetDLLVersion()  returns 42402 (0000ms, 0533ms total)
+T0628 000:540 JLINK_GetCompileDateTime() (0000ms, 0533ms total)
+T0628 000:540 JLINK_GetFirmwareString(...) (0000ms, 0533ms total)
+T0628 000:540 JLINK_GetHardwareVersion()  returns 0x11170 (0000ms, 0533ms total)
+T0628 000:541 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = 4, IRPrint = 0x01 >0x30 JTAG> >0x210 JTAG> >0x58 JTAG> >0x58 JTAG> >0x18 JTAG> >0x88 JTAG> >0x30 JTAG> >0x48 JTAG> >0x1A0 JTAG> >0x48 JTAG> >0x910 JTAG> >0x70 JTAG> >0x80 JTAG>CP15.0.0: 0x41129200: ARM, Architecure 4T >0x70 JTAG>CP15.0.1: 0x0D172172: ICache: 16kB (64*8*32), DCache: 16kB (64*8*32)Cache type: Separate, Write-back, Format A >0x3F0 JTAG> >0x10 JTAG> ScanLen=4 NumDevices=1 aId[0]=0x0032409D aIrRead[0]=0 aScanLen[0]=5 aScanRead[0]=0
+ (0027ms, 0533ms total)
+T0628 000:568 JLINK_JTAG_GetDeviceID(DeviceIndex = 0)  returns 0x32409D (0000ms, 0560ms total)
+T0628 000:568 JLINK_JTAG_GetDeviceInfo(DeviceIndex = 0)  returns 0x01 (0000ms, 0560ms total)
+T0628 004:370 JLINK_Close() >0x08 JTAG> (0047ms, 0560ms total)

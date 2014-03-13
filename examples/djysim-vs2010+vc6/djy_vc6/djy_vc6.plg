@@ -1,0 +1,213 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: djy_vc6 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP20.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I ".\\" /I "..\src\user\include" /I "..\..\..\..\djysrc\bsp\cpu_peripheral\windows\include" /I "..\..\..\..\djysrc\djyos\djyfs\include" /I "..\..\..\..\djysrc\djyos\gui\include" /I "..\..\..\..\djysrc\djyos\include" /I "..\..\..\..\djysrc\bsp\board_peripheral\windows\include" /I "..\..\..\..\djysrc\bsp\arch\windows\include" /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/djy_vc6.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"\\tsclient\E\djysdk\djysrc\bsp\arch\windows\core\cpu.c"
+"\\tsclient\E\djysdk\djysrc\bsp\arch\windows\core\exception.c"
+"\\tsclient\E\djysdk\djysrc\bsp\arch\windows\core\int_hard.c"
+"\\tsclient\E\djysdk\djysrc\bsp\cpu_peripheral\windows\src\command.c"
+"\\tsclient\E\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c"
+"\\tsclient\E\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c"
+"\\tsclient\E\djysdk\djysrc\djyos\buffer\line.c"
+"\\tsclient\E\djysdk\djysrc\djyos\buffer\ring.c"
+"\\tsclient\E\djysdk\djysrc\djyos\clock\clock.c"
+"\\tsclient\E\djysdk\djysrc\djyos\djyfs\flashfile\ddr.c"
+"\\tsclient\E\djysdk\djysrc\djyos\djyfs\flashfile\ecc256.c"
+"\\tsclient\E\djysdk\djysrc\djyos\djyfs\flashfile\fdt.c"
+"\\tsclient\E\djysdk\djysrc\djyos\djyfs\flashfile\flashfile.c"
+"\\tsclient\E\djysdk\djysrc\djyos\djyfs\flashfile\mdr.c"
+"\\tsclient\E\djysdk\djysrc\djyos\djyfs\file.c"
+"\\tsclient\E\djysdk\djysrc\djyos\core\djyos.c"
+"\\tsclient\E\djysdk\djysrc\djyos\core\endian.c"
+"\\tsclient\E\djysdk\djysrc\djyos\core\sys_init.c"
+"\\tsclient\E\djysdk\djysrc\djyos\driver\driver.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\display\gk_display.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\encoding\ascii.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\encoding\encoding.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\encoding\gb2312.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\encoding\loc_string.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\encoding\nls.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\encoding\utf8.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\font\ascii8x16.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\font\ascii8x8.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\font\font.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\font\gb2312_16.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\font\textshow.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\gk_draw\gk_draw.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\lib\gk_api.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\window\gk_clip.c"
+"\\tsclient\E\djysdk\djysrc\djyos\gui\window\gk_win.c"
+"\\tsclient\E\djysdk\djysrc\djyos\int\int.c"
+"\\tsclient\E\djysdk\djysrc\djyos\lock\lock.c"
+"\\tsclient\E\djysdk\djysrc\djyos\memory\memb.c"
+"\\tsclient\E\djysdk\djysrc\djyos\memory\mems.c"
+"\\tsclient\E\djysdk\djysrc\djyos\pipe\pipe.c"
+"\\tsclient\E\djysdk\djysrc\djyos\rsc\rsc.c"
+"\\tsclient\E\djysdk\djysrc\djyos\shell\shell.c"
+"\\tsclient\E\djysdk\djysrc\djyos\shell\shell_fs.c"
+"\\tsclient\E\djysdk\djysrc\djyos\stdin\char_term\char_term.c"
+"\\tsclient\E\djysdk\djysrc\djyos\stdin\keypad\keyboard.c"
+"\\tsclient\E\djysdk\djysrc\djyos\stdin\touch\Touch.c"
+"\\tsclient\E\djysdk\djysrc\djyos\stdin\stdin_dev.c"
+"\\tsclient\E\djysdk\djysrc\djyos\wdt\wdt.c"
+"\\tsclient\E\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\src\user\critical\critical.c"
+"\\tsclient\E\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\src\user\src\main.c"
+"\\tsclient\E\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\src\user\config\module_init.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP20.tmp" 
+Creating temporary file "C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/djy_vc6.pdb" /debug /machine:I386 /out:"Debug/djy_vc6.exe" /pdbtype:sept 
+".\Debug\cpu.obj"
+".\Debug\exception.obj"
+".\Debug\int_hard.obj"
+".\Debug\command.obj"
+".\Debug\cpu_peri_keyboard.obj"
+".\Debug\cpu_peri_lcd_touch_mouse.obj"
+".\Debug\line.obj"
+".\Debug\ring.obj"
+".\Debug\clock.obj"
+".\Debug\ddr.obj"
+".\Debug\ecc256.obj"
+".\Debug\fdt.obj"
+".\Debug\flashfile.obj"
+".\Debug\mdr.obj"
+".\Debug\file.obj"
+".\Debug\djyos.obj"
+".\Debug\endian.obj"
+".\Debug\sys_init.obj"
+".\Debug\driver.obj"
+".\Debug\gk_display.obj"
+".\Debug\ascii.obj"
+".\Debug\encoding.obj"
+".\Debug\gb2312.obj"
+".\Debug\loc_string.obj"
+".\Debug\nls.obj"
+".\Debug\utf8.obj"
+".\Debug\ascii8x16.obj"
+".\Debug\ascii8x8.obj"
+".\Debug\font.obj"
+".\Debug\gb2312_16.obj"
+".\Debug\textshow.obj"
+".\Debug\gk_draw.obj"
+".\Debug\gk_api.obj"
+".\Debug\gk_clip.obj"
+".\Debug\gk_win.obj"
+".\Debug\int.obj"
+".\Debug\lock.obj"
+".\Debug\memb.obj"
+".\Debug\mems.obj"
+".\Debug\pipe.obj"
+".\Debug\rsc.obj"
+".\Debug\shell.obj"
+".\Debug\shell_fs.obj"
+".\Debug\char_term.obj"
+".\Debug\keyboard.obj"
+".\Debug\Touch.obj"
+".\Debug\stdin_dev.obj"
+".\Debug\wdt.obj"
+".\Debug\critical.obj"
+".\Debug\main.obj"
+".\Debug\module_init.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\XPMUser\LOCALS~1\Temp\RSP21.tmp"
+<h3>Output Window</h3>
+Compiling...
+cpu.c
+\\tsclient\e\djysdk\djysrc\bsp\arch\windows\core\cpu.c(71) : warning C4013: 'printf' undefined; assuming extern returning int
+exception.c
+int_hard.c
+command.c
+cpu_peri_keyboard.c
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(44) : warning C4047: 'function' : 'long (__stdcall ** )(struct HWND__ *,unsigned int ,unsigned int ,long )' differs in levels of indirection from 'long (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(44) : warning C4024: 'RegisterWinClass' : different types for formal and actual parameter 2
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(75) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(75) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(80) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(80) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(85) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(85) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(90) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(90) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(95) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(95) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(100) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(100) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(105) : warning C4047: 'function' : 'struct HINSTANCE__ *' differs in levels of indirection from 'long '
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_keyboard.c(105) : warning C4024: 'CreateWindowExA' : different types for formal and actual parameter 11
+cpu_peri_lcd_touch_mouse.c
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c(103) : warning C4047: 'function' : 'long (__stdcall ** )(struct HWND__ *,unsigned int ,unsigned int ,long )' differs in levels of indirection from 'long (__stdcall *)(struct HWND__ *,unsigned int ,unsigned int ,long )'
+\\tsclient\e\djysdk\djysrc\bsp\cpu_peripheral\windows\src\cpu_peri_lcd_touch_mouse.c(103) : warning C4024: 'RegisterWinClass' : different types for formal and actual parameter 2
+line.c
+ring.c
+clock.c
+\\tsclient\e\djysdk\djysrc\djyos\clock\clock.c(101) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+\\tsclient\e\djysdk\djysrc\djyos\clock\clock.c(102) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+\\tsclient\e\djysdk\djysrc\djyos\clock\clock.c(103) : warning C4244: '=' : conversion from '__int64 ' to 'unsigned int ', possible loss of data
+ddr.c
+ecc256.c
+fdt.c
+flashfile.c
+mdr.c
+file.c
+djyos.c
+endian.c
+\\tsclient\E\djysdk\djysrc\djyos\core\djyos.c(223) : warning C4761: integral size mismatch in argument; conversion supplied
+\\tsclient\E\djysdk\djysrc\djyos\core\djyos.c(2710) : warning C4761: integral size mismatch in argument; conversion supplied
+sys_init.c
+driver.c
+gk_display.c
+ascii.c
+encoding.c
+gb2312.c
+loc_string.c
+nls.c
+utf8.c
+ascii8x16.c
+ascii8x8.c
+font.c
+gb2312_16.c
+textshow.c
+gk_draw.c
+gk_api.c
+gk_clip.c
+\\tsclient\E\djysdk\djysrc\djyos\gui\lib\gk_api.c(176) : warning C4761: integral size mismatch in argument; conversion supplied
+gk_win.c
+\\tsclient\E\djysdk\djysrc\djyos\gui\window\gk_win.c(675) : warning C4013: 'strnlen' undefined; assuming extern returning int
+int.c
+lock.c
+memb.c
+mems.c
+\\tsclient\E\djysdk\djysrc\djyos\memory\mems.c(1254) : warning C4018: '==' : signed/unsigned mismatch
+\\tsclient\E\djysdk\djysrc\djyos\memory\mems.c(1291) : warning C4018: '==' : signed/unsigned mismatch
+pipe.c
+rsc.c
+shell.c
+\\tsclient\E\djysdk\djysrc\djyos\shell\shell.c(1308) : warning C4013: 'strnlen' undefined; assuming extern returning int
+shell_fs.c
+char_term.c
+keyboard.c
+Touch.c
+stdin_dev.c
+\\tsclient\E\djysdk\djysrc\djyos\stdin\stdin_dev.c(169) : warning C4018: '==' : signed/unsigned mismatch
+wdt.c
+critical.c
+main.c
+\\tsclient\E\djysdk\djyos_workspace\examples\djysim-vs2010+vc6\src\user\src\main.c(102) : warning C4013: 'strnlen' undefined; assuming extern returning int
+module_init.c
+Linking...
+
+
+
+<h3>Results</h3>
+djy_vc6.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

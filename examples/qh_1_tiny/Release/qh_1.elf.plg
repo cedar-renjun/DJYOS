@@ -1,0 +1,13 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\djysdk\djysrc\examples\qh_1_tiny\keil仅用于调试.uvproj
+Project File Date:  07/28/2012
+
+<h2>Output:</h2>
+Load "D:\\djysdk\\djysrc\\examples\\qh_1_tiny\\Debug\\qh_1_tiny.elf" 
+Erase Done.
+Programming Done.
+Verify OK.

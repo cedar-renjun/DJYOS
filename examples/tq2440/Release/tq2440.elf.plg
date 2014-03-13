@@ -1,0 +1,144 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\djysdk\djysrc\examples\tq2440\KeilDebug\KeilDebug.uvproj
+Project File Date:  09/16/2012
+
+<h2>Output:</h2>
+Load "..\\Debug\\tq2440.elf" 
+No Algorithm found for: 30029810H - 3002986FH
+No Algorithm found for: 30100000H - 3010FFFFH
+No Algorithm found for: 30110000H - 3011FFFFH
+No Algorithm found for: 30120000H - 3012FFFFH
+No Algorithm found for: 30130000H - 3013FFFFH
+No Algorithm found for: 30140000H - 3014FFFFH
+No Algorithm found for: 30150000H - 3015FFFFH
+No Algorithm found for: 30160000H - 3016FFFFH
+No Algorithm found for: 30170000H - 3017FFFFH
+No Algorithm found for: 30180000H - 3018FFFFH
+No Algorithm found for: 30190000H - 3019FFFFH
+No Algorithm found for: 301A0000H - 301AFFFFH
+No Algorithm found for: 301B0000H - 301BFFFFH
+No Algorithm found for: 301C0000H - 301C698BH
+Erase skipped!
+Load "..\\Debug\\tq2440.elf" 
+Insufficient RAM for Flash Algorithms !
+Full Chip Erase Failed!
+Load "..\\Debug\\tq2440.elf" 
+Include "D:\\djysdk\\djysrc\\examples\\tq2440\\KeilDebug\\KeilDebug.ini" 
+/******************************************************************************/
+/* Ext_RAM.INI: External RAM (SDRAM) Initialization File                      */
+/******************************************************************************/
+// <<< Use Configuration Wizard in Context Menu >>>                           // 
+/******************************************************************************/
+/* This file is part of the uVision/ARM development tools.                    */
+/* Copyright (c) 2005-2008 Keil Software. All rights reserved.                */
+/* This software may only be used under the terms of a valid, current,        */
+/* end user licence from KEIL for a compatible version of KEIL software       */
+/* development tools. Nothing else gives you the right to use this software.  */
+/******************************************************************************/
+FUNC void SetupForStart (void) {
+// <o> Program Entry Point
+  PC = 0x30100000;
+}
+FUNC void Init (void) {
+  _WDWORD(0x4A000008, 0xFFFFFFFF);      // Disable All Interrupts
+  _WDWORD(0x53000000, 0x00000000);      // Disable Watchdog Timer
+  
+                                        // Clock Setup 
+                                        // FCLK = 300 MHz, HCLK = 100 MHz, PCLK = 50 MHz
+  _WDWORD(0x4C000018, 0);      // CAMDIVN
+  _WDWORD(0x4C000000, 0x0FFF0FFF);      // LOCKTIME
+  _WDWORD(0x4C000014, 0x0000000d);      // CLKDIVN
+  _WDWORD(0x4C000004, 0x0007F021);      // MPLLCON
+//  _WDWORD(0x4C000008, 0x00038021);      // UPLLCON
+//  _WDWORD(0x4C00000C, 0x001FFFF0);      // CLKCON
+                                        // Memory Controller Setup for SDRAM
+  _WDWORD(0x48000000, 0x22000000);      // BWSCON
+  _WDWORD(0x48000004, 0x00007ef4);      // BANKCON4
+  _WDWORD(0x4800001C, 0x00018001);      // BANKCON6
+  _WDWORD(0x48000020, 0x00018001);      // BANKCON7
+  _WDWORD(0x48000024, 0x008404F5);      // REFRESH
+  _WDWORD(0x48000028, 0x00000031);      // BANKSIZE
+  _WDWORD(0x4800002C, 0x00000030);      // MRSRB6
+  _WDWORD(0x48000030, 0x00000030);      // MRSRB7
+  _WDWORD(0x56000000, 0x5fffff);      // GPACON: Enable Address lines for SDRAM
+//  _WDWORD(0x56000000, 0x3ff);      // GPACON: Enable Address lines for SDRAM
+}
+// Reset chip with watchdog, because nRST line is routed on hardware in a way 
+// that it can not be pulled low with ULINK
+//_WDWORD(0x40000000, 0xEAFFFFFE);        // Load RAM addr 0 with branch to itself
+//CPSR = 0x000000D3;                      // Disable interrupts
+//PC   = 0x40000000;                      // Position PC to start of RAM
+//_WDWORD(0x53000000, 0x00000021);        // Enable Watchdog
+//g, 0                                    // Wait for Watchdog to reset chip
+Init();                                 // Initialize memory
+LOAD ..\Debug\tq2440.elf INCREMENTAL          // Download program
+SetupForStart();                        // Setup for Running
+^
+*** error 34, line 62: undefined identifier
+g, _start                               // Goto _start(reset)
+___^
+*** error 34, line 63: undefined identifier
+Insufficient RAM for Flash Algorithms !
+Full Chip Erase Failed!
+Load "..\\Debug\\tq2440.elf" 
+Include "D:\\djysdk\\djysrc\\examples\\tq2440\\KeilDebug\\KeilDebug.ini" 
+/******************************************************************************/
+/* Ext_RAM.INI: External RAM (SDRAM) Initialization File                      */
+/******************************************************************************/
+// <<< Use Configuration Wizard in Context Menu >>>                           // 
+/******************************************************************************/
+/* This file is part of the uVision/ARM development tools.                    */
+/* Copyright (c) 2005-2008 Keil Software. All rights reserved.                */
+/* This software may only be used under the terms of a valid, current,        */
+/* end user licence from KEIL for a compatible version of KEIL software       */
+/* development tools. Nothing else gives you the right to use this software.  */
+/******************************************************************************/
+FUNC void SetupForStart (void) {
+// <o> Program Entry Point
+  PC = 0x30100000;
+}
+FUNC void Init (void) {
+  _WDWORD(0x4A000008, 0xFFFFFFFF);      // Disable All Interrupts
+  _WDWORD(0x53000000, 0x00000000);      // Disable Watchdog Timer
+  
+                                        // Clock Setup 
+                                        // FCLK = 300 MHz, HCLK = 100 MHz, PCLK = 50 MHz
+  _WDWORD(0x4C000018, 0);      // CAMDIVN
+  _WDWORD(0x4C000000, 0x0FFF0FFF);      // LOCKTIME
+  _WDWORD(0x4C000014, 0x0000000d);      // CLKDIVN
+  _WDWORD(0x4C000004, 0x0007F021);      // MPLLCON
+//  _WDWORD(0x4C000008, 0x00038021);      // UPLLCON
+//  _WDWORD(0x4C00000C, 0x001FFFF0);      // CLKCON
+                                        // Memory Controller Setup for SDRAM
+  _WDWORD(0x48000000, 0x22000000);      // BWSCON
+  _WDWORD(0x48000004, 0x00007ef4);      // BANKCON4
+  _WDWORD(0x4800001C, 0x00018001);      // BANKCON6
+  _WDWORD(0x48000020, 0x00018001);      // BANKCON7
+  _WDWORD(0x48000024, 0x008404F5);      // REFRESH
+  _WDWORD(0x48000028, 0x00000031);      // BANKSIZE
+  _WDWORD(0x4800002C, 0x00000030);      // MRSRB6
+  _WDWORD(0x48000030, 0x00000030);      // MRSRB7
+  _WDWORD(0x56000000, 0x5fffff);      // GPACON: Enable Address lines for SDRAM
+//  _WDWORD(0x56000000, 0x3ff);      // GPACON: Enable Address lines for SDRAM
+}
+// Reset chip with watchdog, because nRST line is routed on hardware in a way 
+// that it can not be pulled low with ULINK
+//_WDWORD(0x40000000, 0xEAFFFFFE);        // Load RAM addr 0 with branch to itself
+//CPSR = 0x000000D3;                      // Disable interrupts
+//PC   = 0x40000000;                      // Position PC to start of RAM
+//_WDWORD(0x53000000, 0x00000021);        // Enable Watchdog
+//g, 0                                    // Wait for Watchdog to reset chip
+Init();                                 // Initialize memory
+LOAD ..\Debug\tq2440.elf INCREMENTAL          // Download program
+SetupForStart();                        // Setup for Running
+^
+*** error 34, line 62: undefined identifier
+g, _start                               // Goto _start(reset)
+___^
+*** error 34, line 63: undefined identifier
+Insufficient RAM for Flash Algorithms !
+Full Chip Erase Failed!
